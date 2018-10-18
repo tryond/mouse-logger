@@ -8,8 +8,8 @@ import com.plugra.model.Database;
 import com.plugra.view.StrokePanel;
 import com.plugra.view.VisualizerView;
 import jnr.ffi.annotations.In;
-import oracle.jvm.hotspot.jfr.JFR;
-import sun.tools.jconsole.PlotterPanel;
+//import oracle.jvm.hotspot.jfr.JFR;
+//import sun.tools.jconsole.PlotterPanel;
 
 import javax.swing.*;
 import java.awt.*;

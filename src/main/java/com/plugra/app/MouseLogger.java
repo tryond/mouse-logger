@@ -53,6 +53,8 @@ public class MouseLogger implements LoginListener {
 
         // Start loginController
         loginController.go();
+
+
     }
 
     // TODO
