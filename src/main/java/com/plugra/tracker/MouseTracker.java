@@ -8,6 +8,9 @@ import com.plugra.tracker.interfaces.TrackerModel;
 
 import static java.lang.System.exit;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class MouseTracker implements StrokeBuilderListener, Tracker {
 
     private CursorTracker cursorTracker;
@@ -46,17 +49,17 @@ public class MouseTracker implements StrokeBuilderListener, Tracker {
 
         // TODO: Normalize and derive direction
         try {
-            model.logEntry("strokes", new String[] {
-                    username,
-                    null,
-                    null,
-                    StrokeTableHelper.getPoints(stroke),
-                    null,
-                    null,
-                    null,
-                    null,
-                    type,
-                    pollRate.toString()
+            model.logEntry("traces", new String[] {
+                    username,                                               // username
+                    "default",                                              // id
+                    new SimpleDateFormat("yyyy-MM-dd").format(new Date()),   // date (yyyy-MM-dd)
+                    StrokeTableHelper.getPoints(stroke),                    // points
+                    "-1",                                                   // sequence_id
+                    "-1",                                                   // position
+                    "-1",                                                   // round
+                    "-1",                                                   // attempt
+                    type,                                                   // cursor_type
+                    pollRate.toString()                                     // poll_rate MS
             });
         }
         catch (LogEntryException ex) {
