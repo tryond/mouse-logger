@@ -40,7 +40,7 @@ Mouse type selection asks the user to choose between a standard mouse and a trac
 
 Mouse Logger is meant to run in the background for the entirety of your computer session. 
 
-![Logging Image](assets/images/register.png?raw=true "Image that shows logging screen")
+![Logging Image](assets/images/close.png?raw=true "Image that shows logging screen")
 
 If you wish to close the application at any point, simply bring up the window from the task bar and click the 'close' button.
 
