@@ -25,8 +25,8 @@ Mouse Logger requires that the user is logged in to ensure that the behavior col
 
 **Please do not change users during a single session. Log out and log back in as another user.** :+1:
 
-![Login Image](res/tracer_images/login.png?raw=true "Image that shows login screen")
-![Register Image](res/tracer_images/register.png?raw=true "Image that shows registration screen")
+![Login Image](assets/images/login.png?raw=true "Image that shows login screen")
+![Register Image](assets/images/register.png?raw=true "Image that shows registration screen")
 
 ### Mouse Type Selection 
 
@@ -34,13 +34,13 @@ Mouse type selection asks the user to choose between a standard mouse and a trac
 
 **Please use the mouse type selected for the duration of your use with the application.** :+1:
 
-![Mouse Select Image](res/tracer_images/mouse.png?raw=true "Image that shows mouse type selection")
+![Mouse Select Image](assets/images/mouse.png?raw=true "Image that shows mouse type selection")
 
 ### Usage
 
 Mouse Logger is meant to run in the background for the entirety of your computer session. 
 
-If you wish to close the application at any point, simnply bring up the window in from the task bar and click the 'close' button.
+If you wish to close the application at any point, simply bring up the window in from the task bar and click the 'close' button.
 
 
 ## Author
