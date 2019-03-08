@@ -48,9 +48,13 @@ public class MouseTracker implements StrokeBuilderListener, Tracker {
         try {
             model.logEntry("strokes", new String[] {
                     username,
-                    StrokeTableHelper.getDirection(stroke),
+                    null,
+                    null,
                     StrokeTableHelper.getPoints(stroke),
-                    "default",
+                    null,
+                    null,
+                    null,
+                    null,
                     type,
                     pollRate.toString()
             });
