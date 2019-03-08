@@ -28,9 +28,6 @@ public class MouseLogger implements LoginListener {
         5. Close when done
          */
 
-        // Hello this is a test of the emergency operating system
-        
-
         JFrame frame = new MKTrackerFrame();
 
         Database database = new ElephantDatabase();
